@@ -1,0 +1,46 @@
+
+body
+{
+    background-color: rgb(219, 232, 232);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+}
+
+.main
+{
+    background-color: #fff;
+    padding: 30px;
+    padding-left: 5rem;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+input[type = "text"]
+{
+    padding: 8px;
+    border: 1px solid #b3a6a6;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    width: 80%;
+}
+
+button
+{
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 5px;
+    margin-bottom: 1rem;
+}
+
+button:hover
+{
+    background-color: chartreuse;
+}
+
+
